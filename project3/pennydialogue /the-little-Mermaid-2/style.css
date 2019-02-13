@@ -1,0 +1,61 @@
+body{
+   
+   background-color:#050C16;
+   background-position: left; 
+   background-image: url(tlm.jpg);
+   background-size:cover;
+   background-repeat :no-repeat;
+   background-position: center;
+   background-attachment:fixed;
+   cursor: url(Fork.png),auto;
+   position: absolute;
+   padding-left:4%;
+}
+
+h1{
+  font-weight:lighter;
+  font-size:205%;
+	color:#FFFCDE;
+	background-color:;
+    text-decoration:;
+    font-family:"Advert"; 
+    text-align: center;
+
+    padding-top: 650px;
+    padding-bottom: 10ex;
+}
+
+
+h6{
+  font-weight:lighter;
+  font-size:130%;
+  color:#80C5CD;
+  background-color:;
+    text-decoration:;
+    font-family:"Advert"; 
+    text-align:left;
+
+    padding-top: 200px;
+    padding-bottom: 10ex;
+    
+    padding-right: 70%;
+    padding-left:10%;
+
+}
+
+
+h2{
+  font-weight:lighter;
+  font-size:130%;
+  color:#F2DB7D;
+  background-color:;
+    text-decoration:;
+    font-family:"Advert"; 
+    text-align: left;
+
+    padding-top: 200px;
+    padding-bottom: 10ex;
+
+    padding-right: 8%;
+    padding-left:75%;
+}

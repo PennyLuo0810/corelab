@@ -1,0 +1,153 @@
+body{
+
+   text-align:center;
+   background-color:#050C16; 
+   background-image: url();
+   cursor: url(pp2.png),auto;
+}
+
+
+h1{
+  font-weight: lighter;
+  font-size:290%;
+	color:#FFFCDE;
+	background-color:;
+    text-decoration:;
+    font-family:"savoye LET"; 
+    text-align: center;
+
+    padding-top: 20px;
+}
+
+
+h7{
+  font-weight: lighter;
+  font-size:290%;
+  color:#FFFCDE;
+  background-color:;
+    text-decoration:;
+    font-family:"savoye LET"; 
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+h8{
+  font-weight: lighter;
+  font-size:290%;
+  color:#FFFCDE;
+  background-color:;
+    text-decoration:;
+    font-family:"savoye LET"; 
+    text-align: center;
+
+    padding-top: 20px;
+
+}
+
+
+h4{
+  font-weight: lighter;
+  font-size:310%;
+	color:#FFFCDE;
+  text-indent:;
+	background-color:;
+    text-decoration:;
+    font-family:"savoye LET"; 
+    text-align: center;
+
+    padding-top: 20px;
+   padding-right: 20%;
+   padding-bottom: 20px;
+   padding-left: 20%;
+ }
+
+h6{
+  font-weight: lighter;
+  font-size:310%;
+  color:#70B0C6;
+  text-indent:2em;
+  background-color:;
+    text-decoration:;
+    font-family:"savoye LET"; 
+    text-align: left;
+
+    padding-top: 20px;
+   padding-right: 20%;
+   padding-bottom: 20px;
+   padding-left: 20%;
+
+}
+
+h3{
+     font-weight: lighter;
+     margin:auto;
+     width:50%;
+
+     margin-left:auto;
+     margin-right:auto;
+
+    
+    right:;
+    width:;
+    float:;
+
+	text-align:left;
+	text-indent:4em;
+	color:#70B0C6;
+	letter-spacing:1px;
+	font-size:180%;
+	line-height:230%;
+	text-align:left;
+	font-family:"savoye LET";
+
+
+   padding-top: 40px;
+   padding-right: 20%;
+   padding-bottom: 7ex;
+   padding-left: 20%;
+
+
+}
+
+
+h2{
+     font-weight: lighter;
+     margin:auto;
+     width:50%;
+
+    text-align:left;
+	text-indent:4em;
+	color:#FFFCDE;
+	letter-spacing:1px;
+	font-size:180%;
+	line-height:230%;
+	text-align:left;
+	font-family:"savoye LET";
+
+
+    padding-top: 40px;
+    padding-right: 20%;
+    padding-bottom: 7ex;
+    padding-left: 20%;
+
+}
+
+
+h5{
+  font-weight: lighter;
+  font-size:180%;
+  color:#131729;
+  background-color:;
+    text-decoration:;
+    font-family:"savoye LET"; 
+    text-align: left;
+
+    padding-top: 40px;
+   padding-right: 20%;
+   padding-bottom: 7ex;
+   padding-left: 10%;
+
+}
+
+
