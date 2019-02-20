@@ -1,0 +1,164 @@
+body{
+   
+   background-color: pink;
+   background-position: center; 
+   background-image: url(1.png);
+   background-size:cover;
+   background-repeat :no-repeat;
+   background-position: all;
+
+}
+    p{
+      font-weight:bold;
+      font-size: 15px;
+      letter-spacing: 3px;
+      font-family:"Courier New";
+      text-align: center;
+      color: pink;
+
+      padding-top: 30px;
+    padding-bottom: 5ex;
+    }
+
+    .boxed{
+      text-indent:2em;
+      display: inline-block;
+      width: 50%;
+      box-sizing: border-box;
+      padding: 10px; 
+      vertical-align: top;
+      font-family:"Courier New";
+      text-align:left;
+      padding-top: 20px;
+    padding-bottom: 10ex;
+    color:white;
+
+    }
+
+
+    .boxed-2{
+      text-indent:2em;
+      display: none;
+      width: 100%;
+      box-sizing: border-box;
+      padding: 10px; 
+      vertical-align: top;
+      font-family:"Courier New";
+    }
+
+    @media(max-width: 900px){
+      html{
+        background-color: Olive;
+      }
+
+      p{
+        font-size: 20px;
+      }
+    }
+    @media(max-width: 800px){
+      html{
+        background-color: OliveDrab;
+      }
+      p{
+        font-family: helvetica;
+      }
+
+      .boxed{
+        display: block;
+        width: 100%;
+      }
+
+    }
+
+    @media(max-width: 700px){
+      html{
+        background-color: ;
+      }
+    }
+
+    @media(max-width: 600px){
+      html{
+        background-color: ;
+      }
+
+      .boxed{
+        display: none;
+      
+      }
+
+      .boxed-2{
+        display: block;
+      }
+    }
+
+
+
+@font-face{
+      font-family: 'Courier New';
+      src: url('assets/fonts/AbrilFatface-Regular.ttf');
+    }
+
+  html, body{
+      font-size: 2vw;
+    }
+
+
+    #paragraph_2{
+
+      font-family: 'Courier New', helvetica, sans;
+
+      color: pink;
+      background-color: #FFF7FB;
+      opacity: 1;
+      font-size: 1rem;
+      font-weight: normal;  
+      font-style: italic;
+      /*font-variant: small-caps;*/
+      text-transform: capitalize;
+      line-height: 2rem;
+      letter-spacing: 0.03rem;
+      word-spacing: 0.1rem;
+      text-indent: 4rem;
+      text-shadow: 4px -4px 3px white;
+      box-shadow: 10px 10px 5px #F2E5FF;
+      transform: rotateZ(10deg);
+      text-align: center;
+
+    }
+   
+
+  #paragraph_3{
+
+      font-weight:lighter;
+  font-size: 70%;
+  color:white;
+  background-color:;
+    text-decoration:;
+    font-family:"Courier New"; 
+    text-align:left;
+
+    padding-top: 80px;
+    padding-bottom: 10ex;
+    
+    padding-right: 50%;
+    padding-left:10%;
+
+
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
