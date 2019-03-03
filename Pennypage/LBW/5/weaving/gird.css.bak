@@ -1,0 +1,29 @@
+*{
+	margin: 0px;
+}
+#grid{
+position: fixed;
+border-style:solid;
+border-color: black;
+border-width:1px;
+background-color: black;
+margin:0px;
+}
+
+
+body, html{
+	font-size: 20px;
+	text-align:center£»
+}
+
+#wrapper{
+	transition: font-size 0.5s;
+}
+
+#colorDiv{
+	transition: color 2s;
+}
+
+.text-color{
+	color: red;
+}
