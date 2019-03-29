@@ -5,8 +5,26 @@
 			background-color: #000000;
 		}
 
+
+svg {
+  
+  width: 50vmin;
+  display:block;
+  position:absolute;
+  margin:auto;
+  top:-450;bottom:0;left:0;right:0;
+  z-index:1;
+}
+text {
+  fill: white;
+  font-family: consolas;
+  font-size: 9px;
+}
+
+
+
 		h1{
-			color: #C670A8;
+			color: #000000;
 			text-align: center;
 			font-family: "Lato";
 			font-style: normal; 
