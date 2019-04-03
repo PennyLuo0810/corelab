@@ -1,0 +1,64 @@
+/* march 06 css */
+body{
+   background-color: #FFE7EF;   
+
+}
+
+*{
+	font-size: 30px;
+}
+
+ul > li{
+	font-family: arial;
+	font-style: italic;
+}
+
+ol{
+	margin-left: 20px;
+}
+
+ol > li{
+	font-family: arial;
+	color: #EE3774;
+}
+
+.myaddedListElement{
+	color: blue;
+	font-size: 45px;
+}
+
+#imageButton{
+	display: inline-block;
+	background-color: #EE3774;
+	color: white;
+	padding: 10px;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: margin-left 0.5s;
+}
+
+#imageButton:hover{
+	transform: scale(1.1);
+}
+
+img{
+	width: 75vw;
+}
+
+
+.moveLeft{
+	margin-left: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
