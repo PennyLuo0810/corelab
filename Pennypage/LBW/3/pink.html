@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PENNY</title>
+    <style>
+        #box{
+            width: 100%;
+            height: calc(100vh);
+            background: #FFABC7;
+            font-size: 90px;
+            font-weight: bold;
+            display: flex;
+            justify-content:center;/*水平居中*/
+            align-items:Center;/*垂直居中*/
+        }
+    </style>
+</head>
+<body>
+    <div id="box">
+        PENNY LOVE PINK
+    </div>
+</body>
+<script>
+    window.onresize = function() {
+        // 浏览器窗口变化后需要做的事情
+        var offsetWid = document.documentElement.clientWidth;
+        var demo = document.getElementById('box');
+        if(offsetWid>=1200){
+            demo.style.backgroundColor = '#E54F81'
+        }
+        if(600<= offsetWid < 1200) {
+            demo.style.backgroundColor = '#C63464'
+        }
+        if(offsetWid < 600) {
+            demo.style.backgroundColor = '#FFEAF1'
+        }
+    }
+</script>
+</html>
