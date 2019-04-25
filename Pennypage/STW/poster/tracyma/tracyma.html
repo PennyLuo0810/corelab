@@ -6,8 +6,53 @@
   <title>Tracy Ma</title>
 
       <link rel="stylesheet" href="css/style.css">
+      <link type="text/css" href="csshake.css">
 
 </head>
+
+<style>  
+    .hero-container{ 
+      font-size: 20px; 
+      color:#ffffff; 
+      margin: 10px;
+      animation: changeshadow 1s  ease-in  infinite ;
+      /* 其它浏览器兼容性前缀 */
+      -webkit-animation: changeshadow 1s linear infinite;
+      -moz-animation: changeshadow 1s linear infinite;
+      -ms-animation: changeshadow 1s linear infinite;
+      -o-animation: changeshadow 1s linear infinite;
+    }  
+    @keyframes changeshadow {  
+        0%{ text-shadow: 0 0 4px #ffffff}  
+        50%{ text-shadow: 0 0 40px #ffffff}  
+        100%{ text-shadow: 0 0 4px #ffffff}  
+    }
+    /* 添加兼容性前缀 */
+  @-webkit-keyframes changeshadow {
+    0%{ text-shadow: 0 0 4px #ffffff}  
+          50%{ text-shadow: 0 0 40px #ffffff}  
+          100%{ text-shadow: 0 0 4px #ffffff}  
+  }
+  @-moz-keyframes changeshadow {
+      0%{ text-shadow: 0 0 4px #ffffff}  
+            50%{ text-shadow: 0 0 40px #ffffff}  
+            100%{ text-shadow: 0 0 4px #ffffff}  
+  }
+  @-ms-keyframes changeshadow {
+      0%{ text-shadow: 0 0 4px #ffffff}  
+            50%{ text-shadow: 0 0 40px #ffffff}  
+            100%{ text-shadow: 0 0 4px #ffffff}  
+  }
+  @-o-keyframes changeshadow {
+      0%{ text-shadow: 0 0 4px #ffffff}  
+            50%{ text-shadow: 0 0 40px #ffffff}  
+            100%{ text-shadow: 0 0 4px #ffffff}  
+  }
+</style> 
+
+
+
+
 
 <body>
 
@@ -15,22 +60,28 @@
   
   <div class="hero-container">
 
-    <p class="animate fadeInLeft delay-400">April 23, 5pm. Johnson/Kaplan Building, 66 West 12th Street, Room A404</p>
+    <p class="animate fadeInLeft delay-400"  >April 23, 5pm. Johnson/Kaplan Building, 66 West 12th Street, Room A404</p>
+    <!-- <img src="2.gif"/> -->
+<!-- 
+    <div class="box">April 23, 5pm. Johnson/Kaplan Building, 66 West 12th Street, Room A404</div>
+ -->
 
     <h1 class="hero-title animate fadeInLeft delay-600">Parsons CD Lecture Series Tracy Ma </h1>
-    <a href="https://www.instagram.com/p/BtyrmNuBaeQ/" class="hero-button animate fadeInLeft delay-800" title="Click to see more">About</a>
+
+    <div class="shake shake-rotate"></div>
+    <a href="https://www.instagram.com/p/BtyrmNuBaeQ/" class="hero-button animate fadeInLeft delay-800" title="Click to see more">ABOUT</a>
+    <img src="2.gif"/>
 
   </div>
 </section>
 
 <section class="main-content">
-  <h2>Tracy Ma </h2>
+ <!--  <h2>Tracy Ma </h2> 
   <p>Tracy Ma is a Hong Kong-born Canadian graphic designer. Her work has been recognized by the Type Directors Club, the Society of Print Designers, D&AD, Print magazine’s “20 under 30” and Complex magazine’s “25 Young Designers to Watch”. She has given several talks in cities across Canada, America and Europe about her work. She is currently a visual editor at The New York Times.
 </p>
 
-<img src="kiss.gif"/>
-
-  
+<img src=""/> -->
+ 
   <p></p>
   
 </section>

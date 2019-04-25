@@ -1,5 +1,11 @@
+body{
+background-color: black;
+background-image:url("xx.jpg");
+
+}
+
 .main-content {
-  min-height: 1000px;
+  min-height: -10px;
 }
 
 .hero {
@@ -57,11 +63,12 @@
   opacity: 0.8;
   text-transform: uppercase;
   text-align: left;
+  image-rendering: 10px;
 }
 
 .hero-button {
-  background: rgba(255, 255, 255, 0.8);
-  color: #44575b;
+  background: ;
+  color: #ffffff;
   font-size: 24px;
   float: left;
   text-transform: uppercase;
@@ -81,6 +88,7 @@
   margin: 5px 0;
   text-align: left;
   width: 85%;
+
 }
 @media screen and (min-width: 640px) {
   .hero-title {
