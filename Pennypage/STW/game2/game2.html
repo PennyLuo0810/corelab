@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style2.css">
+  <script> 
+   function answerQuestion(){
+	   var answer;
+	   answer = document.getElementById("data").value;
+       if (answer =="sun"){
+          alert("Congratulations, Correct! Continue game?");
+		  location.reload();
+      window.location.href="game3.html"; 
+       }else{
+	      alert("Wrong, game continues!");
+		  document.getElementById("data").disabled = true;
+		  document.getElementById("data").value="Continue game！";
+	   }
+   }
+  
+  </script>
+  <title>illuminati</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="heading">
+            <p class="time"></p>
+            <button id="help" class="btn" >help</button>
+            <button id="restart" class="btn" >restart</button>
+        </div>
+		<h1 id="words"  align="center"></h1>
+		
+        <div class="grid-container"></div>
+		<input id="data" type="text" class="btn" name="name" disabled="disabled" value="Typ your answer！"/>
+		<p/>
+		<input type="submit"  class="btn" value="submit"  onclick="answerQuestion()"/>
+    </div>
+
+    <script src="js/config.js"></script>
+    <script src="js/util.js"></script>
+    <script src="js/view.js"></script>
+    <script src="js/game2.js"></script>
+    <script src="js/event.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
