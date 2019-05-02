@@ -54,41 +54,9 @@ a {
   font-size: 2.6rem;
       color:#ffffff; 
       margin: 10px;
-      animation: changeshadow 1s  ease-in  infinite ;
+      /*animation: changeshadow 1s  ease-in  infinite ;
       /* 其它浏览器兼容性前缀 */
-      -webkit-animation: changeshadow 1s linear infinite;
-      -moz-animation: changeshadow 1s linear infinite;
-      -ms-animation: changeshadow 1s linear infinite;
-      -o-animation: changeshadow 1s linear infinite;
-    }  
-    @keyframes changeshadow {  
-        0%{ text-shadow: 0 0 4px #ffffff}  
-        50%{ text-shadow: 0 0 40px #ffffff}  
-        100%{ text-shadow: 0 0 4px #ffffff}  
-    }
-    /* 添加兼容性前缀 */
-  @-webkit-keyframes changeshadow {
-    0%{ text-shadow: 0 0 4px #ffffff}  
-          50%{ text-shadow: 0 0 40px #ffffff}  
-          100%{ text-shadow: 0 0 4px #ffffff}  
-  }
-  @-moz-keyframes changeshadow {
-      0%{ text-shadow: 0 0 4px #ffffff}  
-            50%{ text-shadow: 0 0 40px #ffffff}  
-            100%{ text-shadow: 0 0 4px #ffffff}  
-  }
-  @-ms-keyframes changeshadow {
-      0%{ text-shadow: 0 0 4px #ffffff}  
-            50%{ text-shadow: 0 0 40px #ffffff}  
-            100%{ text-shadow: 0 0 4px #ffffff}  
-  }
-  @-o-keyframes changeshadow {
-      0%{ text-shadow: 0 0 4px #ffffff}  
-            50%{ text-shadow: 0 0 40px #ffffff}  
-            100%{ text-shadow: 0 0 4px #ffffff}  
-  }
-
-
+      
 }
 
 .grid-cell {
