@@ -337,15 +337,14 @@ var Game = (function(){
            var words = ["Can't see it in the daytime",
     "Silver white",
     "There are many pits.",
-    "Full of energy",
     "Legend has it that on the back are bases used by aliens to monitor the Earth.",
     "Sailor___",
     "Diana",
     "Werewolf",
     "Satellite",
     "Apollo 11",
-    "There is a kind of cake named after him.",];
-		   var number = Math.random() * 11;
+    "There is a kind of cake named after it.",];
+		   var number = Math.random() * 10;
            var st = Math.random() * 4;
            var integer = parseInt(number);
            var change = parseInt(st);

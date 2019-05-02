@@ -343,7 +343,7 @@ var Game = (function(){
     "Helping Human Power Generation",
     "Celestial bodies",
     "Warmth",
-    "Maybe its real surface temperature is only 27 degrees.",
+    "Maybe its real surface temperature is only 27ºC.",
     "What is indispensable",];
 		   var number = Math.random() * 11;
            var st = Math.random() * 4;
