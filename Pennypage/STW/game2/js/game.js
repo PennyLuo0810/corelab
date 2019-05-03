@@ -351,7 +351,7 @@ var Game = (function(){
            var change = parseInt(st);
           document.getElementById("words").innerHTML = words[integer];
 		  document.getElementById("data").disabled = false;
-		  document.getElementById("data").value="Typ your answer！";
+		  document.getElementById("data").value="Type your answer！";
         },
 
 		/*answerQuestion: function () {
@@ -411,7 +411,7 @@ var Game = (function(){
             var _this = this;
             var row = config.row;
             var col = config.col;
-			alert("6666，成功了！");
+			alert("6666，无解了！");
             var cell = (function () {
                 return reduceDimension(data.cell).filter(function (el) {
                     return el.val !== null; 

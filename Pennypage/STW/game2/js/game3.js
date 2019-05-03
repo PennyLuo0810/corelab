@@ -350,7 +350,7 @@ var Game = (function(){
            var change = parseInt(st);
           document.getElementById("words").innerHTML = words[integer];
 		  document.getElementById("data").disabled = false;
-		  document.getElementById("data").value="Typ your answer！";
+		  document.getElementById("data").value="Type your answer！";
         },
 
 		/*answerQuestion: function () {
